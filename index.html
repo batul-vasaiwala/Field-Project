@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact of Online Shopping on Local Stores</title>
+  <link rel="stylesheet" href="styles.css"> 
+  <script type="text/javascript" src="script.js" ></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ 
+
+</head>
+<body>
+  <header>
+    <h1>Impact of Online Shopping on Local Stores</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#results">Survey Results</a></li>
+        <li><a href="#conclusion">Conclusion & Solution</a></li>
+        <li><a href="#about">About the Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" style="padding: 50px; background-color: #f4f4f4;">
+    <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+      <h1 style="font-size: 3em; margin-bottom: 20px;">Welcome to Our Study on the Impact of Online Shopping on Local Stores</h1>
+      <p style="font-size: 1.2em; line-height: 1.8; color: #333; margin-bottom: 40px;">
+        In today’s fast-paced world, online shopping has revolutionized the way we purchase goods and services. From the convenience of your home or office, you can access a wide range of products at competitive prices, often delivered right to your doorstep. However, this transformation in shopping habits has also posed significant challenges to local, brick-and-mortar stores. As more consumers opt for the ease and efficiency of online shopping, local businesses, which once thrived as the backbone of communities, face shrinking customer bases and declining revenues.
+      </p>
+      <p style="font-size: 1.2em; line-height: 1.8; color: #333; margin-bottom: 40px;">
+        This project aims to shed light on how the rise of e-commerce is affecting local stores. Through extensive surveys, market analysis, and case studies, we have gathered valuable data that reveals the profound impact online shopping has on small businesses. Our findings offer insights into consumer behavior, the competitive advantages of online platforms, and the struggles of traditional retailers trying to adapt to a digital-first economy.
+      </p>
+      <p style="font-size: 1.2em; line-height: 1.8; color: #333; margin-bottom: 40px;">
+        In this research, you’ll explore how local businesses are responding to this challenge. Some have embraced e-commerce, integrating online platforms with their physical stores, while others struggle to keep up with the rapid pace of digital transformation. This project not only presents the problems faced by local stores but also proposes potential solutions that can help them thrive in a world where online shopping is becoming the new normal.
+      </p>
+      <p style="font-size: 1.2em; line-height: 1.8; color: #333; margin-bottom: 40px;">
+        We invite you to dive into our findings, learn from the data, and explore the innovative ways local stores can stay competitive in this evolving retail landscape. Whether you're a consumer curious about how your shopping habits affect local economies, a business owner looking for strategies to compete, or a researcher interested in market trends, this study provides comprehensive insights into the future of retail.
+      </p>
+      <a href="#about" style="padding: 15px 30px; background-color: #0056b3; color: #fff; font-size: 1.2em; text-decoration: none; border-radius: 5px;">Learn More About the Study</a>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section id="results">
+    <div>
+      <h3>Consumer Survey</h3>
+      <p>Please fill out the Consumer Survey by clicking the link below:</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrIOSQl8smIkoELA_e-T3pSsdNo2gf3zhJUSJNlhuvPkQaOw/viewform?usp=sf_link" target="_blank" style="padding: 10px 15px; background-color: #0056b3; color: #fff; text-decoration: none; border-radius: 5px;">Consumer Survey Form</a>
+    </div>
+
+    <!-- Link to Local Store Survey -->
+    <div>
+      <h3>Local Store Survey</h3>
+      <p>Please fill out the Local Store Survey by clicking the link below:</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJmRm1K4Sjj5VDV0r92AiuUMG1cPp-OMz4VAK8k4ldoQXYpQ/viewform?usp=sf_link" target="_blank" style="padding: 10px 15px; background-color: #0056b3; color: #fff; text-decoration: none; border-radius: 5px;">Local Store Survey Form</a>
+    </div>
+
+    <h2>Survey Results</h2>
+    
+   <div class="chart-wrapper">
+      <div id="ageChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">The majority of respondents are between 18-24 years old, indicating that younger consumers are more likely to participate in online shopping activities.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="incomeChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">A significant portion of respondents have no or low income, suggesting that online shopping may be appealing to individuals with lower financial means due to discounts and convenience.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="genderChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">More females than males responded to the survey, suggesting a potential trend in gender preferences for online shopping.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="onlineFrequencyChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Most respondents shop online occasionally, indicating that while online shopping is prevalent, it is not necessarily a daily or weekly activity for everyone.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="onlineProductsChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Clothing and apparel are the most commonly purchased items online, followed by groceries and electronics, highlighting the importance of convenience in product selection.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="onlineReasonsChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Convenience and 24/7 availability are the primary reasons for online shopping, emphasizing the flexibility and ease offered by online platforms compared to physical stores.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="onlineSatisfactionChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Most respondents rated their satisfaction with online shopping as moderate to high, suggesting that, despite some drawbacks, online shopping meets consumer expectations.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="localFrequencyChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">While some respondents shop locally on a daily or weekly basis, a notable portion only shops occasionally, indicating that online shopping may take precedence in certain situations.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="localReasonsChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Consumers value the ability to see and touch products before buying, and personalized service is a significant reason for shopping locally, underscoring the importance of the physical shopping experience.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="localDiscouragementChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Higher prices and limited selection discourage consumers from shopping at local stores, highlighting the challenges local businesses face in competing with online retailers.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="onlineImpactOnLocalChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">A majority of respondents believe online shopping has a noticeable impact on local stores, indicating the competitive pressure local businesses are under due to online shopping trends.</p>
+  </div>
+
+  <div class="chart-wrapper">
+      <div id="localStoresOnlinePresenceChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+      <p class="conclusion">Most respondents favor local stores having an online presence, suggesting that integrating digital options could help local businesses thrive in the current market.</p>
+  </div>
+  <!--local store-->
+  <h3>Local Store Survey</h3>
+  <div class="chart-wrapper">
+    <div id="SettingOnlinePlatformChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+    <p class="conclusion">Most respondents support the idea of local stores having an online presence, indicating a shift towards digital integration for business growth.
+</p>
+</div>
+<div class="chart-wrapper">
+    <div id="BiggestChallengeInCompetingChart" class="chart-container" style="width: 600px; height: 400px;"></div>
+    <p class="conclusion"> The biggest challenge for local stores competing with online retailers is the convenience of home delivery, followed closely by wider product selection.
+</p>
+</div>
+
+
+
+
+
+    </p>
+</div>
+    
+    
+</section>
+  <!-- Conclusion Section -->
+  <section id="conclusion" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); margin: 20px 0;">
+    <h2 style="color: #333; font-size: 24px; margin-bottom: 15px;">Overall Conclusion & Solution</h2>
+    <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+      The Consumer Shopping Habits Survey gathered insights from 44 respondents, revealing significant trends in shopping behaviors. A notable 79.5% of participants were aged 18-24, and most reported a monthly household income of ₹50,001 to ₹1,00,000. The survey indicated that online shopping is prevalent, with 68.2% shopping occasionally and 70.5% preferring to purchase clothing and groceries online. The primary reasons for this preference included convenience and wider product selection. Conversely, local shopping was less frequent, with 27.3% shopping rarely or never, mainly due to limited selection and higher prices.
+    </p>
+    <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+      To enhance local shopping experiences, local businesses should consider establishing an online presence and offering delivery services. This adaptation could attract the 72.7% of respondents who expressed a willingness to shop locally if these options were available.
+    </p>
+    <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+      In conclusion, the shift towards online shopping is undeniable and has significantly impacted local stores. However, local businesses have opportunities to adapt by embracing technology, improving customer engagement, and offering unique in-store experiences.
+    </p>
+    <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">To help local stores survive and thrive, the following solutions are recommended:</p>
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+      <li style="color: #555; margin-bottom: 10px;"><strong style="color: #2c3e50;">Adopt an Online Presence:</strong> Local stores should consider setting up online platforms or partnering with existing marketplaces to reach a broader audience.</li>
+      <li style="color: #555; margin-bottom: 10px;"><strong style="color: #2c3e50;">Personalized Customer Experience:</strong> By focusing on personalized customer service and creating community-oriented shopping experiences, local stores can offer something that online platforms cannot replicate.</li>
+      <li style="color: #131111; margin-bottom: 10px;"><strong style="color: #2c3e50;">Hybrid Retail Model:</strong> A combination of online and offline (brick-and-mortar) sales can help local stores stay competitive. Offering in-store pick-up options for online orders can attract more foot traffic.</li>
+    </ul>
+    <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">By implementing these strategies, local stores can position themselves to compete more effectively in the age of e-commerce.</p>
+    <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+      <strong style="color: #2c3e50;">Message to Readers:</strong> As consumers, we have the power to shape the future of our local economies. By supporting local businesses and advocating for their online growth, we can help maintain vibrant communities while enjoying the convenience of modern shopping. Let's make a conscious choice to balance our shopping habits for a sustainable future!
+    </p>
+  </section>
+  
+  <!-- About Section -->
+
+<section id="about" style="padding: 60px; background-color: #fff;">
+  <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2.8em; margin-bottom: 20px; color: #333;">About My Project</h2>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-bottom: 40px;">
+      This project is part of my academic research for college, where I explored how the rapid growth of online shopping is impacting local stores. The aim was to analyze the challenges faced by traditional businesses and understand the ways in which they can adapt to compete in a digital world.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-bottom: 40px;">
+      Over a few days of intensive research, I gathered data through surveys and interviews with local store owners and consumers to better understand the shift in shopping behavior. This project highlights how the convenience and variety of online platforms are influencing consumer choices, and what local stores can do to stay relevant in this changing landscape.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-bottom: 40px;">
+      The findings from this project provide practical insights into how small businesses can leverage both online and offline strategies. By adopting digital tools and offering personalized in-store experiences, local businesses can attract a broader range of customers and compete with e-commerce giants.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-bottom: 40px;">
+      This research is aimed at helping both consumers and business owners understand the evolving retail environment. The insights can be valuable for small businesses looking for ways to innovate and enhance customer engagement.
+    </p>
+    
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" style="padding: 60px; background-color: #f4f4f4;">
+  <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2.8em; margin-bottom: 20px; color: #333;">Contact Me</h2>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-bottom: 40px;">
+      If you have any questions or would like to discuss this project further, please feel free to reach out. You can contact me at:
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #333;">
+      Email: <a href="mailto:batulvasaiwala86@gmail.com" style="color: #0056b3; text-decoration: none;">batulvasaiwala86@gmail.com</a>
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #333;">
+      Phone: <a href="tel:+91 7977704484" style="color: #0056b3; text-decoration: none;">+91 7977704484</a>
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer >
+  <p style="margin: 0;">&copy; 2024 Impact of Online Shopping on Local Stores | Developed by Batul Vasaiwala</p>
+</footer>
+
+<script >
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawAllCharts);
+  
+  function drawAllCharts() {
+    drawAgeChart();
+    drawIncomeChart();
+    drawGenderChart();
+    drawOnlineShoppingFrequencyChart();
+    drawOnlineProductsChart();
+    drawOnlineShoppingReasonsChart();
+    drawOnlineSatisfactionChart();
+    drawLocalShoppingFrequencyChart();
+    drawLocalShoppingReasonsChart();
+    drawLocalShoppingDiscouragementChart();
+    drawOnlineImpactOnLocalChart();
+    drawLocalStoresOnlinePresenceChart();
+    drawSettingOnlinePlatformChart();
+    drawBiggestChallengeInCompetingChart();
+    
+     }
+
+ 
+
+
+//Age Distribution
+function drawAgeChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Age Group', 'Number of Respondents'],
+    ['18-24', 35],
+    ['25-34', 3],
+    ['35-44', 0],
+    ['45-54', 5],
+    ['55 & above', 1]
+  ]);
+
+  var options = { title: 'Age Distribution' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('ageChart'));
+  chart.draw(data, options);
+}
+
+// Monthly Household Income
+function drawIncomeChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Income', 'Number of Respondents'],
+    ['No income', 16],
+    ['Less than ₹20,000', 6],
+    ['₹20,000 - ₹50,000', 10],
+    ['₹50,001 - ₹1,00,000', 7],
+    ['₹1,00,001 - ₹2,00,000', 2],
+    ['Above ₹2,00,000', 3]
+  ]);
+
+  var options = { title: 'Monthly Household Income' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('incomeChart'));
+  chart.draw(data, options);
+}
+
+// Gender Distribution
+function drawGenderChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Gender', 'Number of Respondents'],
+    ['Male', 15],
+    ['Female', 29],
+    ['Prefer not to say', 0]
+  ]);
+
+  var options = { title: 'Gender Distribution' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('genderChart'));
+  chart.draw(data, options);
+}
+
+// Online Shopping Frequency
+function drawOnlineShoppingFrequencyChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Frequency', 'Number of Respondents'],
+    ['Daily', 1],
+    ['Weekly', 6],
+    ['Monthly', 7],
+    ['Occasionally', 30],
+    ['Never', 0]
+  ]);
+
+  var options = { title: 'How often do you shop online?' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('onlineFrequencyChart'));
+  chart.draw(data, options);
+}
+
+// Products Purchased Online
+function drawOnlineProductsChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Product Type', 'Number of Respondents'],
+    ['Clothing and Apparel', 31],
+    ['Groceries', 21],
+    ['Electronics', 20],
+    ['Home Appliances', 17],
+    ['Books/Stationery', 16],
+    ['Health & Beauty', 23],
+   
+  ]);
+
+  var options = { title: 'Products Purchased Online' };
+
+  var chart = new google.visualization.BarChart(document.getElementById('onlineProductsChart'));
+  chart.draw(data, options);
+}
+
+// Reasons for Online Shopping
+function drawOnlineShoppingReasonsChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Reason', 'Number of Respondents'],
+    ['Convenience (no travel required)', 40],
+    ['Lower prices', 19],
+    ['Wider selection of products', 24],
+    ['Fast delivery', 12],
+    ['Availability of discounts and offers', 21],
+    ['24/7 availability', 25],
+    ['Reviews and ratings from other customers', 16],
+    ['Easy replacement and guaranteed products', 10],
+   
+  ]);
+
+  var options = { title: 'Reasons for Online Shopping' };
+
+  var chart = new google.visualization.BarChart(document.getElementById('onlineReasonsChart'));
+  chart.draw(data, options);
+}
+
+// Satisfaction with Online Shopping
+function drawOnlineSatisfactionChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Satisfaction Level', 'Number of Respondents'],
+    ['1', 2],
+    ['2', 4],
+    ['3', 15],
+    ['4', 17],
+    ['5', 6]
+  ]);
+
+  var options = { title: 'Satisfaction with Online Shopping' };
+
+  var chart = new google.visualization.BarChart(document.getElementById('onlineSatisfactionChart'));
+  chart.draw(data, options);
+}
+
+// Local Shopping Frequency
+function drawLocalShoppingFrequencyChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Frequency', 'Number of Respondents'],
+    ['Daily', 12],
+    ['Weekly', 10],
+    ['Monthly', 7],
+    ['Occasionally', 11],
+    ['Rarely/Never', 4]
+  ]);
+
+  var options = { title: 'How often do you shop at local stores?' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('localFrequencyChart'));
+  chart.draw(data, options);
+}
+
+// Reasons for Shopping Locally
+function drawLocalShoppingReasonsChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Reason', 'Number of Respondents'],
+    ['Personalized service', 22],
+    ['Ability to see and touch products before buying', 38],
+    ['Supporting local businesses', 15],
+    ['Immediate availability of products', 22],
+    ['Quality of products', 20]
+  ]);
+
+  var options = { title: 'Reasons for Shopping Locally' };
+
+  var chart = new google.visualization.BarChart(document.getElementById('localReasonsChart'));
+  chart.draw(data, options);
+}
+
+// Discouragement from Local Shopping
+function drawLocalShoppingDiscouragementChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Reason', 'Number of Respondents'],
+    ['Higher prices', 21],
+    ['Limited selection', 31],
+    ['Inconvenient location', 21],
+    ['Limited store hours', 21],
+    ['Time consuming ,travel expenses & Lack of parking', 8],
+   
+    
+  ]);
+
+  var options = { title: 'Discouragement from Local Shopping' };
+
+  var chart = new google.visualization.BarChart(document.getElementById('localDiscouragementChart'));
+  chart.draw(data, options);
+}
+
+// Impact of Online Shopping on Local Stores
+function drawOnlineImpactOnLocalChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Impact', 'Number of Respondents'],
+    ['Yes, significantly', 14],
+    ['Yes, somewhat', 22],
+    ['No, not really', 7],
+    ['No, not at all', 1]
+  ]);
+
+  var options = { title: 'Impact of Online Shopping on Local Businesses' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('onlineImpactOnLocalChart'));
+  chart.draw(data, options);
+}
+
+// Interest in Local Stores Having an Online Presence
+function drawLocalStoresOnlinePresenceChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Interest', 'Number of Respondents'],
+    ['Yes', 37],
+    ['No', 7]
+  ]);
+
+  var options = { title: 'Should Local Stores Have an Online Presence?' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('localStoresOnlinePresenceChart'));
+  chart.draw(data, options);
+}
+function drawSettingOnlinePlatformChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Interest', 'Number of Respondents'],
+    ['Yes,already have one', 3],
+    ['Yes,planning to', 16],
+    ['No ,not interested', 5],
+    ['Unsure', 6]
+  ]);
+
+  var options = { title: 'Would you be interested in setting up an online platform for your business?' };
+
+  var chart = new google.visualization.PieChart(document.getElementById('SettingOnlinePlatformChart'));
+  chart.draw(data, options);
+}
+function drawBiggestChallengeInCompetingChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Reason', 'Number of Respondents'],
+    ['Lower Prices ', 11],
+    ['Wider Product selection', 12],
+    ['Convenience(home delivery)', 17],
+    ['Aggressive online Marketing', 10]
+   
+   
+    
+  ]);
+
+  var options = { title: 'Biggest challenge in competing with online retailers' };
+
+  var chart = new google.visualization.BarChart(document.getElementById('BiggestChallengeInCompetingChart'));
+  chart.draw(data, options);
+}
+document.addEventListener("DOMContentLoaded", function () {
+
+  // JavaScript to handle hover effects
+// Get all chart wrappers
+const chartWrappers = document.querySelectorAll('.chart-wrapper');
+
+// Add mouse enter and leave events to each wrapper
+chartWrappers.forEach(wrapper => {
+  wrapper.addEventListener('mouseenter', () => {
+      wrapper.classList.add('active'); // Add class on hover
+  });
+
+  wrapper.addEventListener('mouseleave', () => {
+      // Don't remove the class on mouse leave
+      // This allows the conclusion text to remain visible
+      // If you want to remove it when clicking somewhere else, you can implement that
+  });
+
+  // Optional: Add click event to hide the conclusion when clicking elsewhere
+  document.addEventListener('click', (event) => {
+      if (!wrapper.contains(event.target)) {
+          wrapper.classList.remove('active'); // Remove class when clicking outside
+      }
+  });
+});
+
+});
+
+</script>
+
+
+
+  </body>
+  </html>

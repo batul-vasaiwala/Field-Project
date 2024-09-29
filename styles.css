@@ -1,0 +1,216 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't break layout */
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(90deg, #4a90e2, #50e3c2);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f9e79f; /* Light yellow on hover */
+}
+
+/* Section Styles */
+section {
+  width: 100%;
+  max-width: 1200px;
+  background: linear-gradient(90deg, #87e6f3, #e8eceb);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #4a90e2;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 10px;
+}
+
+/* Chart Styles */
+#ageChart, #incomeChart, #genderChart, 
+#onlineFrequencyChart, #onlineProductsChart, 
+#onlineReasonsChart, #onlineSatisfactionChart, 
+#localFrequencyChart, #localReasonsChart, 
+#localDiscouragementChart, #onlineImpactOnLocalChart, 
+#localStoresOnlinePresenceChart {
+  width: 100%;
+  height: 400px; /* Adjusted height for smaller screens */
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden; /* To round corners properly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#ageChart:hover, #incomeChart:hover, #genderChart:hover, 
+#onlineFrequencyChart:hover, #onlineProductsChart:hover, 
+#onlineReasonsChart:hover, #onlineSatisfactionChart:hover, 
+#localFrequencyChart:hover, #localReasonsChart:hover, 
+#localDiscouragementChart:hover, #onlineImpactOnLocalChart:hover, 
+#localStoresOnlinePresenceChart:hover {
+  transform: scale(1.05); /* Slightly enlarge chart on hover */
+  box-shadow: 0 6px 12px rgba(10, 10, 10, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Chart Wrapper and Conclusion */
+.chart-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  text-align: center; /* Center the text initially */
+}
+
+.chart-container {
+  transition: transform 0.3s ease; /* Smooth transition for the chart */
+}
+
+.chart-wrapper:hover .chart-container {
+  transform: translateX(-200px); /* Move the chart to the left on hover */
+}
+
+.chart-wrapper:hover .conclusion {
+  display: block; /* Show on hover */
+}
+
+.conclusion {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 0;
+  left: 650px; 
+  width: 300px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+/* Responsive Styles */
+
+/* Small Devices - Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  section {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #ageChart, #incomeChart, #genderChart, 
+  #onlineFrequencyChart, #onlineProductsChart, 
+  #onlineReasonsChart, #onlineSatisfactionChart, 
+  #localFrequencyChart, #localReasonsChart, 
+  #localDiscouragementChart, #onlineImpactOnLocalChart, 
+  #localStoresOnlinePresenceChart {
+    height: 300px;
+  }
+
+  .chart-wrapper.active .conclusion {
+    left: 0;
+    width: 100%;
+  }
+
+  .conclusion {
+    font-size: 16px;
+    left: 0;
+    width: 90%; /* Adjust conclusion box width on smaller screens */
+  }
+}
+
+/* Extra Small Devices - Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  header {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  #ageChart, #incomeChart, #genderChart, 
+  #onlineFrequencyChart, #onlineProductsChart, 
+  #onlineReasonsChart, #onlineSatisfactionChart, 
+  #localFrequencyChart, #localReasonsChart, 
+  #localDiscouragementChart, #onlineImpactOnLocalChart, 
+  #localStoresOnlinePresenceChart {
+    max-height: 400px;
+    max-width: 300px;;
+    height: 70vw; 
+  }
+  
+  
+  .conclusion {
+    font-size: 14px;
+  }
+}
